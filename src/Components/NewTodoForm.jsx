@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
 
-export function NewTodoForm({ setTodos }) {
+export default function NewTodoForm({ setTodos }) {
 
     const [newItem, setNewItem] = useState("");
 

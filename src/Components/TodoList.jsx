@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import { TodoItem } from './TodoItem'; 
+import { TodoItem } from './TodoItem';
 
-export function TodoList({ todos, setTodos }) {
+export default function TodoList({ todos, setTodos }) {
 
     function toggleTodo(id, completed) {
         setTodos((t) =>

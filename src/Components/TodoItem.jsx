@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export function TodoItem({ todo, toggleTodo, deleteTodo }) {
+export default function TodoItem({ todo, toggleTodo, deleteTodo }) {
     return (
         <li>
             <label>
